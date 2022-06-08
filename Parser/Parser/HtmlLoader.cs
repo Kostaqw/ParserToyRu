@@ -1,10 +1,6 @@
 ﻿using Parser.Parser.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Parser.Parser
@@ -17,7 +13,6 @@ namespace Parser.Parser
         public HtmlLoader(IParserSettings settings)
         {
             _client = new HttpClient();
-            
             _url = settings.BaseUrl + settings.Prefix;
         }
 

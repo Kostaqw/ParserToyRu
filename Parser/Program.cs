@@ -1,5 +1,4 @@
-﻿using AngleSharp.Html.Parser;
-using CsvHelper;
+﻿using CsvHelper;
 using CsvHelper.Configuration;
 using Parser.Parser;
 using Parser.Parser.Implementation.ToyRu;
@@ -8,7 +7,6 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Parser
@@ -52,7 +50,6 @@ namespace Parser
                     await Task.Delay(500);
                     Console.WriteLine(item);
                 }
-
             }
             currentPage++;
         }

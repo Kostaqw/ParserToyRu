@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Parser.Parser.Implementation.ToyRu
+﻿namespace Parser.Parser.Implementation.ToyRu
 {
     public class Toy
     {
